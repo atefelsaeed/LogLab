@@ -14,7 +14,7 @@ void runAppWithFConsole({
   required Widget app,
   Future Function()? beforeRun,
   required FConsoleCardDelegate? delegate,
-  required ConsoleDisplayMode displayMode,
+  // required ConsoleDisplayMode displayMode,
   ErrHandler? errHandler,
 }) async {
 // Capture Flutter framework errors
@@ -63,7 +63,7 @@ void runAppWithFConsole({
       runApp(
         ConsoleWidget(
           options: ConsoleOptions(
-            displayMode:displayMode,
+            // displayMode:displayMode,
           ),
           child: app,
         ),

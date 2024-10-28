@@ -378,7 +378,7 @@ packages:
     source: hosted
     version: "1.2.0"
   tapped:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: tapped
       sha256: "27a01d5c80d0e33100f62514dfcca43d933984822d852c84a7664943b3cf1b30"
